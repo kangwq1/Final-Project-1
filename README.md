@@ -12,3 +12,9 @@ get_wiki_covid19_page <- function() {
   response <- httr::GET(url = full_url)
   return(response)
 }
+
+## error code displayed is shown below
+File "/tmp/ipykernel_481/3996746759.py", line 3
+    get_wiki_covid19_page <- function() {
+                                        ^
+SyntaxError: invalid syntax
